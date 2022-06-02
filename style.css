@@ -1,0 +1,129 @@
+body{  
+    display: flex;
+    background-color: #000;
+    justify-content: center;
+    top: 50%;
+}
+#square{           
+    max-width: 100%;
+    max-height: 150px;
+    border-radius: 5%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: normal 100px arial;
+    margin: auto;
+    margin-bottom: 15px;
+}
+a{
+    cursor: pointer;
+}
+section{
+    margin: auto;
+    position: absolute; 
+    display: inline-block;
+}
+button{
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    font: normal 25px arial;  
+    border-radius: 7%; 
+    ;               
+}
+button:hover {
+    transform: scale(1.05);
+}
+#btn1{
+    background-color: green;
+}
+#btn2{
+    background-color:red;
+}
+#salve{
+    background-color: blue;
+}
+#reset{
+    background-color: gray;
+}
+#footer{
+    text-align: center;
+    font: normal 15px arial;
+    color: #fff;
+}
+#divTempoSalvo{
+    font: normal 20px arial;
+    color: #fff;
+    text-align: center;
+
+}
+h1{
+    font: normal 40px arial;
+    text-align: center;
+    color: #fff;
+}
+#divButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+        }
+
+.miniConteiner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+@media (max-width:600px){
+    section{
+        width: 50%;
+    }
+    #square{
+        font: normal 40px arial;
+    }
+    button{
+        max-width: 50%;
+        padding: 5px;
+        margin: 2px;
+        font: normal 15px arial;  
+        border-radius: 7%;
+        box-sizing: border-box; 
+    }
+    h1{
+    font: normal 25px arial;
+    text-align: center;
+    color: #fff;
+}
+#footer{
+    text-align: center;
+    font: normal 10px arial;
+    color: #fff;
+}
+}
+@media (max-width:330px){
+    #square{
+        font: normal 25px arial;
+    }
+    h1{
+    font: normal 15px arial;
+    text-align: center;
+    color: #fff;
+    }
+    #divButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: wrap;
+    box-sizing: border-box;
+        }
+    button{
+    max-width: 50%;
+    padding: 5px;
+    margin: 2px;
+    font: normal 10px arial;  
+    border-radius: 7%;
+    box-sizing: border-box; 
+    }
+
+}
