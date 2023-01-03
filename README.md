@@ -1,5 +1,8 @@
-# cronometro
-Cronômetro Responsivo com as seguintes funções: iniciar, parar, resetar e salvar (localStorage)
+**Cronômetro**
+
+- Cronômetro Responsivo com as seguintes funções: iniciar, parar, resetar e salvar (localStorage)
+- Tecnologias: HTML, CSS, Javascript.
+- Para acessar mais projetos básicos como este: [Clique aqui!](https://costamateus7.github.io/portifolio/)
 - https://costamateus7.github.io/cronometro/
 
 
